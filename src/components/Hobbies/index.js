@@ -5,9 +5,9 @@ import styles from './styles';
 import soccerBall from '../../images/soccerball.jpg';
 
 const Hobbies = () => (
-    <section style={styles.container} id="hobbies">
-        <div style={styles.imageWrapper}><img style={styles.graphic} alt='soccer ball' src={soccerBall} /></div>
-        <div style={styles.content}>
+    <section style={styles.container} className='row' id="hobbies">
+        <div className='col-md-6 d-none d-md-block'><img style={styles.graphic} alt='soccer ball' src={soccerBall} /></div>
+        <div className='col-md-6 col-sm-12' style={styles.content}>
             <div style={styles.title}>Hobbies</div>
             <p>
                 I love football. In my spare time you'll find me watching short football videos looking for a new move to try.

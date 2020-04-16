@@ -5,10 +5,10 @@ import styles from './styles';
 import programmer from '../../images/programmer.jpg';
 
 const About = () => (
-    <section style={styles.container} id="about">
-        <div style={styles.imageWrapper}><img alt='programmer' style={styles.graphic} src={programmer} /></div>
+    <section style={styles.container} className='row' id="about">
+        <div className='col-md-6 d-none d-md-block'><img alt='programmer' style={styles.graphic} src={programmer} /></div>
         
-        <div style={styles.content}>
+        <div className='col-md-6 col-sm-12' style={styles.content}>
             <div style={styles.title}>About</div>
             <div>
                 <p>

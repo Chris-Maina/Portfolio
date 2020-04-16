@@ -1,13 +1,9 @@
 const styles = {
     container: {
         height: '100vh',
-        paddingTop: 60,
-        display: 'flex',
-        fontSize: 18,
+        fontSize: 17,
+        padding: '0px 30px',
         justifyContent: 'space-around', 
-    },
-    imageWrapper: {
-        width: '50%'
     },
     graphic: {
         objectFit: 'contain',
@@ -18,8 +14,6 @@ const styles = {
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'center',
-        height: '100%',
-        width: '50%'
     },
     title: {
         fontWeight:  600,

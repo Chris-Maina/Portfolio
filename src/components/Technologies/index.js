@@ -5,8 +5,8 @@ import styles from './styles';
 import code from '../../images/code.jpg';
 
 const Technologies = () => (
-    <section style={styles.container} id="technologies">
-        <div style={styles.content}>
+    <section style={styles.container} className='row' id="technologies">
+        <div className='col-md-6 col-sm-12' style={styles.content}>
             <div style={styles.title}>Technologies</div>
             <p>
                 <div>
@@ -25,7 +25,7 @@ const Technologies = () => (
                 <a style={styles.link} href='https://bitbucket.org/Chris-Maina/crafted-pizza-api'>Check out Crafted Pizza <FontAwesomeIcon icon='arrow-right' style={styles.icon} /></a>
             </p>
         </div>
-        <div style={styles.imageWrapper}>
+        <div className='col-md-6 d-none d-md-block'>
             <img src={code} alt='programming concept' style={styles.graphic} />
         </div>
     </section>

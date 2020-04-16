@@ -1,18 +1,15 @@
 const styles = {
     container: {
         height: '100vh',
-        paddingTop: 60,
-        display: 'flex',
-        padding: '0 20px',
-        fontSize: 18,
+        fontSize: 17,
+        padding: '0 30px',
         justifyContent: 'space-around',
     },
     content: {
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'center',
-        height: '100%',
-        width: '50%'
+
     },
     title: {
         fontWeight:  600,
@@ -31,9 +28,6 @@ const styles = {
     },
     icon: {
         marginLeft: 10,
-    },
-    imageWrapper: {
-        width: '50%'
     },
     graphic: {
         objectFit: 'contain',
