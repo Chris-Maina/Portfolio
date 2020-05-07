@@ -1,6 +1,7 @@
 const styles = {
     container: {
       fontSize: 18, 
+      color: '#3D405B',
       background: 'linear-gradient(106deg, rgba(157,213,189,1) 0%, rgba(232,225,204,1) 100%)'
     },
     navBrand: {

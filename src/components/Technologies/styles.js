@@ -3,6 +3,7 @@ const styles = {
         height: '100vh',
         fontSize: 17,
         padding: '0 30px',
+        color: '#3D405B',
         justifyContent: 'space-around',
     },
     content: {
@@ -22,9 +23,9 @@ const styles = {
     link: {
         display: 'block',
         textDecoration: 'none',
-        fontWeight: 'bold',
+        fontWeight: 700,
         marginTop: 10,
-        color: 'rgba(0,0,0,.9)',
+        color: '#3D405B',
     },
     icon: {
         marginLeft: 10,
